@@ -8,7 +8,6 @@
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
-
 .subtitle {
     text-decoration: none;
 }
@@ -25,7 +24,13 @@
     font-family: 'JetBrains Mono';
 }
 
+@media (max-width: 600px) {
+  .brand {
+    font-size: 3rem;
+  }
+}
 
+/* fonts */
 @font-face {
     font-family: 'JetBrains Mono';
     src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
